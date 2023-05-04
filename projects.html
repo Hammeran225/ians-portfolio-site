@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ian Begnaud's Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/ians-portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/webclip.png">
+  <style>
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .project-thumbnail {
+      width: 100%;
+      height: 0;
+      padding-bottom: 75%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+    <main id="Home" class="main">
+        <div class="section hero-section wf-section">
+          <div class="navbar">
+            <a href="index.html" aria-current="page" class="logo-container w-inline-block w--current">
+              <h2 class="logo">Ian Begnaud<span class="logo-span">| designer</span></h2>
+            </a>
+            <div class="nav">
+              <a href="#Projects" class="nav-link">Projects</a>
+              <a href="#Bio" class="nav-link">Bio</a>
+              <a href="#Hire-Me" class="nav-link nav-cta">Hire Ian</a>
+            </div>
+          </div>
+        </div>
+  <div id="Projects" class="section projects wf-section">
+    <div class="container heading-container">
+      <div class="column section-heading-column">
+        <h3 class="section-heading">Projects</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="projects-grid">
+        <div class="project-thumbnail" style="background-image: url('path/to/your/image1.jpg');"></div>
+        <div class="project-thumbnail" style="background-image: url('path/to/your/image2.jpg');"></div>
+        <div class="project-thumbnail" style="background-image: url('path/to/your/image3.jpg');"></div>
+        <div class="project-thumbnail" style="background-image: url('path/to/your/image4.jpg');"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ... -->
+  <!-- Your existing body content -->
+  <!-- ... -->
+</body>
+</html>
